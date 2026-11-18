@@ -107,7 +107,7 @@ def layout(quests):
 
 def build(chapters, out, file_title):
     qdir = os.path.join(out, "config", "ftbquests", "quests")
-    for sub in ("chapters", "lang/en_us/chapters", "lang/tr_tr/chapters"):
+    for sub in ("chapters", "lang"):
         os.makedirs(os.path.join(qdir, sub), exist_ok=True)
     used = {"items": set(), "entities": set()}
     lang_chapters = {}
@@ -182,15 +182,10 @@ def build(chapters, out, file_title):
     def lang_file(d):
         return "{\n" + "".join(f"\t{k}: {s(v)}\n" for k, v in sorted(d.items())) + "}\n"
 
-    # Herkes Turkce gorsun diye en_us ve tr_tr ayni icerik
-    for loc in ("en_us", "tr_tr"):
-        base = os.path.join(qdir, "lang", loc)
-        open(os.path.join(base, "file.snbt"), "w").write(lang_file({"file.0000000000000001.title": file_title}))
-        open(os.path.join(base, "chapter_group.snbt"), "w").write(
-            lang_file({f"chapter_group.{hid('group', g)}.title": t for g, t in GROUPS}))
-        open(os.path.join(base, "chapter.snbt"), "w").write(lang_file(
-            {k: v for l in lang_chapters.values() for k, v in l.items() if k.startswith("chapter.")}))
-        for ck, l in lang_chapters.items():
-            open(os.path.join(base, "chapters", ck + ".snbt"), "w").write(
-                lang_file({k: v for k, v in l.items() if k.startswith("quest.")}))
+    # Bu FTB Quests surumu lang/<dil>.snbt tek dosyasini okur; eksik dilde en_us'e duser.
+    allk = {"file.0000000000000001.title": file_title}
+    allk.update({f"chapter_group.{hid('group', g)}.title": t for g, t in GROUPS})
+    for l in lang_chapters.values():
+        allk.update(l)
+    open(os.path.join(qdir, "lang", "en_us.snbt"), "w").write(lang_file(allk))
     return used

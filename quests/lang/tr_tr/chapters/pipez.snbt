@@ -1,8 +1,0 @@
-{
-	quest.265998B23F251205.quest_desc: ["&eUniversal Pipe&r eşya, sıvı, enerji ve gazı tek boruda taşır. Biraz daha pahalı ama karmaşık kurulumlarda çok yer kazandırır. Hangi türü taşıyacağını ayar ekranından seçebilirsin."]
-	quest.4123B196362E9C94.quest_desc: ["&ePipez&r, eşyaları ve sıvıları bir yerden başka bir yere taşımanın en kolay yolu. &eItem Pipe&r'ı sandıkla makine arasına döşe. Borular kendiliğinden hiçbir yerden çekmez; bir sandıktan çekmesi için eli boşken borunun o sandığa bağlandığı uca &eShift + sağ tık&r yap, o uç 'çekme' (extract) moduna geçer ve rengi değişir. Çekilen eşyalar borunun bağlı olduğu diğer yerlere gider. &ePipe Wrench&r ile de istemediğin bağlantıları koparabilirsin."]
-	quest.545FC19C72C606C1.quest_desc: ["&eEnergy Pipe&r elektrik taşır; farklı modların makinelerini birbirine bağlamak için harika. Jeneratörden çekmeyi aç, enerji bağlı makinelere dağılır. Mekanism, Powah, Create Crafts & Additions gibi modların hepsiyle uyumlu."]
-	quest.74A5CFB8439454CE.quest_desc: ["&eFluid Pipe&r su, lav ve diğer modların sıvılarını taşır. Mantık aynı: kaynağa bağlanan uçta çekmeyi açarsın. Örneğin bir su pompasından makinelerine su ya da bir tanktan jeneratöre yakıt taşıyabilirsin."]
-	quest.7AB60C11AD20615B.quest_desc: ["Normal borular yavaştır. Borunun çekme yapan ucuna sağ tıklayıp menüdeki yuvaya &eUpgrade&r takarsan hız ve miktar artar (Basic → Improved → Advanced → Ultimate → Infinity). Upgrade'li borularda &efiltre&r de ayarlayabilir, eşyaların sırayla mı yoksa en yakına mı dağıtılacağını seçebilirsin."]
-	quest.7AB60C11AD20615B.title: "Boru Upgrade'leri"
-}
