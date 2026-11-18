@@ -1,0 +1,131 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server:java21
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"       # Minecraft
+      - "24454:24454/udp"   # Simple Voice Chat
+    entrypoint:
+      - /bin/sh
+      - -c
+      - >-
+        if curl -fsSL https://github.com/BurakDeyirmenci/for-penguins-pack/archive/refs/heads/main.tar.gz -o /tmp/pack.tgz; then
+        rm -rf /data/config/ftbquests/quests && mkdir -p /data/config/ftbquests &&
+        tar xzf /tmp/pack.tgz -C /data/config/ftbquests --strip-components=1 for-penguins-pack-main/quests &&
+        chown -R 1000:1000 /data/config/ftbquests; else echo "gorevler indirilemedi, eskiler kullaniliyor"; fi;
+        exec /start
+    environment:
+      EULA: "TRUE"
+      TYPE: NEOFORGE
+      VERSION: "1.21.1"
+      NEOFORGE_VERSION: "21.1.267"
+      MEMORY: "4G"
+      USE_AIKAR_FLAGS: "true"
+      MOTD: "Dostlar SMP"
+      DIFFICULTY: normal
+      MAX_PLAYERS: "10"
+      VIEW_DISTANCE: "8"
+      SIMULATION_DISTANCE: "6"
+      ONLINE_MODE: "true"
+      ENABLE_WHITELIST: "true"
+      WHITELIST: ${WHITELIST}
+      OPS: ${OPS}
+      ALLOW_FLIGHT: "true"   # Mekanism jetpack / Ars vb. icin kick yememek
+      REMOVE_OLD_MODS: "true"
+      MODS: >-
+        https://edge.forgecdn.net/files/8993/983/Apotheosis-1.21.1-8.9.0.jar,
+        https://edge.forgecdn.net/files/9006/294/ApothicAttributes-1.21.1-2.11.0.jar,
+        https://edge.forgecdn.net/files/9095/862/ApothicEnchanting-1.21.1-1.6.4.jar,
+        https://edge.forgecdn.net/files/8469/405/ApothicSpawners-1.21.1-1.4.0.jar,
+        https://edge.forgecdn.net/files/7854/442/appleskin-neoforge-mc1.21-3.0.9.jar,
+        https://edge.forgecdn.net/files/9608/861/architectury-13.0.12-neoforge.jar,
+        https://edge.forgecdn.net/files/9521/184/ars_nouveau-1.21.1-5.13.5.jar,
+        https://edge.forgecdn.net/files/8791/899/artifacts-neoforge-13.2.5.jar,
+        https://edge.forgecdn.net/files/9406/246/balm-neoforge-1.21.1-21.0.67.jar,
+        https://edge.forgecdn.net/files/8430/183/bettercombat-neoforge-2.4.0%2B1.21.1.jar,
+        https://edge.forgecdn.net/files/9577/651/Botania-Revived-1.21.1-2.0.2-NeoForge.jar,
+        https://edge.forgecdn.net/files/8512/888/carryon-neoforge-1.21.1-2.2.6.13.jar,
+        https://edge.forgecdn.net/files/5729/127/cloth-config-15.0.140-neoforge.jar,
+        https://edge.forgecdn.net/files/5623/731/Clumps-neoforge-1.21.1-19.0.0.1.jar,
+        https://edge.forgecdn.net/files/8859/298/commoncapabilities-1.21.1-neoforge-2.11.6.jar,
+        https://edge.forgecdn.net/files/6368/976/Controlling-neoforge-1.21.1-19.0.5.jar,
+        https://edge.forgecdn.net/files/7963/363/create-1.21.1-6.0.10.jar,
+        https://edge.forgecdn.net/files/8900/55/CreateDragonsPlus-1.11.9.jar,
+        https://edge.forgecdn.net/files/8241/347/create-enchantment-industry-2.4.2.jar,
+        https://edge.forgecdn.net/files/9029/800/createaddition-1.7.2.jar,
+        https://edge.forgecdn.net/files/8241/767/cristellib-neoforge-1.21.1-3.1.7.jar,
+        https://edge.forgecdn.net/files/6529/130/curios-neoforge-9.5.1%2B1.21.1.jar,
+        https://edge.forgecdn.net/files/9626/282/cyclopscore-1.21.1-neoforge-1.30.2.jar,
+        https://edge.forgecdn.net/files/7892/943/ExplorersCompass-1.21.1-3.4.0-neoforge.jar,
+        https://edge.forgecdn.net/files/7524/151/ferritecore-7.0.3-neoforge.jar,
+        https://edge.forgecdn.net/files/9594/476/ftb-chunks-neoforge-2101.1.24.jar,
+        https://edge.forgecdn.net/files/9650/381/ftb-library-neoforge-2101.1.40.jar,
+        https://edge.forgecdn.net/files/9650/792/ftb-quests-neoforge-2101.1.39.jar,
+        https://edge.forgecdn.net/files/9434/81/ftb-teams-neoforge-2101.1.12.jar,
+        https://edge.forgecdn.net/files/8231/400/ftb-ultimine-neoforge-2101.1.15.jar,
+        https://edge.forgecdn.net/files/9344/504/ftb-xmod-compat-neoforge-21.1.14.jar,
+        https://edge.forgecdn.net/files/9326/327/fzzy_config-0.7.7%2Bfix1%2B1.21%2Bneoforge.jar,
+        https://edge.forgecdn.net/files/8893/490/geckolib-neoforge-1.21.1-4.9.3.jar,
+        https://edge.forgecdn.net/files/8671/622/gravestone-neoforge-1.21.1-1.0.40.jar,
+        https://edge.forgecdn.net/files/9366/366/guideme-21.1.22.jar,
+        https://edge.forgecdn.net/files/6733/669/ImmersiveEngineering-1.21.1-12.4.2-194.jar,
+        https://edge.forgecdn.net/files/9626/576/integrateddynamics-1.21.1-neoforge-1.39.1.jar,
+        https://edge.forgecdn.net/files/9626/869/integratedterminals-1.21.1-neoforge-1.11.2.jar,
+        https://edge.forgecdn.net/files/9494/567/integratedtunnels-1.21.1-neoforge-1.13.1.jar,
+        https://edge.forgecdn.net/files/9328/60/irons_lib-1.21.1-2.3.0.jar,
+        https://edge.forgecdn.net/files/8680/204/irons_spellbooks-1.21.1-3.16.3.jar,
+        https://edge.forgecdn.net/files/8591/319/Jade-1.21.1-NeoForge-15.10.6.jar,
+        https://edge.forgecdn.net/files/9205/121/jei-1.21.1-neoforge-19.64.0.455.jar,
+        https://edge.forgecdn.net/files/7463/40/justdirethings-1.5.7.jar,
+        https://edge.forgecdn.net/files/9641/139/kotlinforforge-5.13.0-all.jar,
+        https://edge.forgecdn.net/files/8931/182/L_Ender%27s%20Cataclysm%201.21.1-3.33.jar,
+        https://edge.forgecdn.net/files/8345/326/lionfishapi-3.1.jar,
+        https://edge.forgecdn.net/files/8330/365/lithium-neoforge-0.15.4%2Bmc1.21.1.jar,
+        https://edge.forgecdn.net/files/9170/709/lithostitched-1.8.1-neoforge-21.1.jar,
+        https://edge.forgecdn.net/files/7904/58/Mekanism-1.21.1-10.7.19.85.jar,
+        https://edge.forgecdn.net/files/7904/61/MekanismGenerators-1.21.1-10.7.19.85.jar,
+        https://edge.forgecdn.net/files/7904/62/MekanismTools-1.21.1-10.7.19.85.jar,
+        https://edge.forgecdn.net/files/9527/937/mezz_config-1.21.1-neoforge-0.7.1-standalone.jar,
+        https://edge.forgecdn.net/files/9309/399/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar,
+        https://edge.forgecdn.net/files/9646/793/modonomicon-1.21.1-neoforge-1.123.1.jar,
+        https://edge.forgecdn.net/files/7760/267/mowziesmobs-1.21.1-1.8.2.jar,
+        https://edge.forgecdn.net/files/7892/954/NaturesCompass-1.21.1-3.4.0-neoforge.jar,
+        https://edge.forgecdn.net/files/9554/25/occultism-1.21.1-neoforge-1.227.0.jar,
+        https://edge.forgecdn.net/files/7730/942/Patchouli-1.21.1-93-NEOFORGE.jar,
+        https://edge.forgecdn.net/files/8351/631/pipez-neoforge-1.21.1-1.2.31.jar,
+        https://edge.forgecdn.net/files/9153/39/Placebo-1.21.1-9.9.4.jar,
+        https://edge.forgecdn.net/files/7389/814/player-animation-lib-forge-2.0.4%2B1.21.1.jar,
+        https://edge.forgecdn.net/files/8011/715/Powah-6.2.10.jar,
+        https://edge.forgecdn.net/files/8211/701/refinedstorage-neoforge-2.0.9.jar,
+        https://edge.forgecdn.net/files/5831/692/Searchables-neoforge-1.21.1-1.0.2.jar,
+        https://edge.forgecdn.net/files/8601/207/voicechat-neoforge-1.21.1-2.6.22.jar,
+        https://edge.forgecdn.net/files/8746/1/simplyswords-neoforge-1.70.2-1.21.1.jar,
+        https://edge.forgecdn.net/files/7055/149/SmartBrainLib-neoforge-1.21.1-1.16.11.jar,
+        https://edge.forgecdn.net/files/9524/812/sophisticatedbackpacks-1.21.1-3.26.21.2249.jar,
+        https://edge.forgecdn.net/files/9651/537/sophisticatedcore-1.21.1-1.5.38.2484.jar,
+        https://edge.forgecdn.net/files/9651/620/sophisticatedstorage-1.21.1-1.6.19.2234.jar,
+        https://edge.forgecdn.net/files/6225/208/spark-1.10.124-neoforge.jar,
+        https://edge.forgecdn.net/files/8222/737/Terralith_1.21.x_v2.6.2.jar,
+        https://edge.forgecdn.net/files/7555/622/tiab-neoforge-6.5.4.jar,
+        https://edge.forgecdn.net/files/8657/120/t_and_t-fabric-neoforge-1.13.11.jar,
+        https://edge.forgecdn.net/files/9626/89/waystones-neoforge-1.21.1-21.1.47.jar,
+        https://edge.forgecdn.net/files/8894/736/YungsApi-1.21.1-NeoForge-5.1.9.jar,
+        https://edge.forgecdn.net/files/6276/955/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar,
+        https://edge.forgecdn.net/files/5954/804/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar,
+        https://edge.forgecdn.net/files/5924/482/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar,
+        https://edge.forgecdn.net/files/5812/193/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar,
+        https://edge.forgecdn.net/files/6606/621/YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar,
+        https://edge.forgecdn.net/files/5924/487/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar,
+        https://edge.forgecdn.net/files/6272/264/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar,
+        https://edge.forgecdn.net/files/5812/532/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar
+    volumes:
+      - minecraft-data:/data
+    deploy:
+      resources:
+        limits:
+          memory: 6G
+
+volumes:
+  minecraft-data:

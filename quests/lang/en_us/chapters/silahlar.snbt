@@ -1,0 +1,9 @@
+{
+	quest.0453B640349D64D5.quest_desc: ["Simply Swords'un en değerli kısmı &eeşsiz (unique) silahlar&r: zindan sandıklarında bulunan, özel yetenekleri olan efsanevi silahlar (yıldırım çağıran, can çalan, ateş saçan...). Bazılarına &eRunefused&r ya da &eNetherfused&r gem takarak yeni güçler ekleyebilirsin. Bir eşsiz silah bulduğunda bu görevi işaretle."]
+	quest.0453B640349D64D5.title: "Eşsiz Silahlar"
+	quest.0FA86D853F846F05.quest_desc: ["&eBetter Combat&r ile dövüş artık tıkla-vur değil. Her silahın kendine özgü bir &esaldırı animasyonu ve menzili&r var; ardı ardına vurunca &ekombo&r yaparsın (her vuruş bir öncekinden farklı). Kılıç geniş yay çizer ve birden çok düşmana vurabilir, mızrak uzaktan dürter, balta ağır ama sert vurur. Sol tık basılı tutarak sürekli saldırabilirsin. İki elde silah da taşıyabilirsin."]
+	quest.0FA86D853F846F05.title: "Better Combat"
+	quest.4F3CE323F97D3904.quest_desc: ["Farklı silahları dene ve sana uyanı bul. &eKatana&r hızlı ve akıcı, &eGreataxe&r yavaş ama çok sert, &eSpear&r ise uzaktan vurmanı sağlar. Silahlar demir, altın, elmas ve netherite seviyelerinde gelir. Apotheosis bonuslarıyla birleştiğinde gerçekten güçlü olurlar."]
+	quest.4F3CE323F97D3904.title: "Tarzını Bul"
+	quest.5FE80BC10DFF95A6.quest_desc: ["&eSimply Swords&r onlarca yeni silah türü ekler: Longsword, Katana, Rapier, Greataxe, Glaive, Spear, Scythe, Claymore, Sai, Twinblade ve fazlası. Her biri farklı hız, menzil ve kombo sunar. Demir bir &eLongsword&r ile başla; dengeli ve kullanımı kolay."]
+}

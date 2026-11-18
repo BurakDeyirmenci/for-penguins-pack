@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "sophisticated_storage"
+	group: "625CBCE1B745D8F7"
+	icon: { id: "sophisticatedstorage:gold_chest" }
+	id: "38335710512D4F1F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "212874EA57C8B7B4"
+			rewards: [{
+				id: "151EF2DF26326000"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6D4DC07D9FA18209"
+					item: { count: 1, id: "sophisticatedstorage:chest" }
+					type: "item"
+				}
+				{
+					id: "03E7A0720B522022"
+					item: { count: 1, id: "sophisticatedstorage:barrel" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["212874EA57C8B7B4"]
+			id: "51FBBC33DA705DA8"
+			rewards: [{
+				id: "7ABF725FD1FED792"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5167ED62C2B1B98D"
+				item: { count: 1, id: "sophisticatedstorage:basic_to_iron_tier_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["51FBBC33DA705DA8"]
+			id: "71971D7EC621A934"
+			rewards: [{
+				id: "009D14DA298B95CC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2DED8769AE837D94"
+				item: { count: 1, id: "sophisticatedstorage:diamond_chest" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["51FBBC33DA705DA8"]
+			id: "4210987D4D2322C0"
+			rewards: [{
+				id: "2BF7B32D6B819A34"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "4EEBEEA6404BD80D"
+					item: { count: 1, id: "sophisticatedstorage:compacting_upgrade" }
+					type: "item"
+				}
+				{
+					id: "3381ED98F37E97E0"
+					item: { count: 1, id: "sophisticatedstorage:void_upgrade" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4210987D4D2322C0"]
+			id: "3C492F9E70D1FF39"
+			rewards: [{
+				id: "694D9E0598B00372"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "46B2CED848050064"
+					item: { count: 1, id: "sophisticatedstorage:hopper_upgrade" }
+					type: "item"
+				}
+				{
+					id: "11AE4E08FC961EE6"
+					item: { count: 1, id: "sophisticatedstorage:smelting_upgrade" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["212874EA57C8B7B4"]
+			id: "5F20FA90866D4DCE"
+			optional: true
+			rewards: [{
+				id: "72242BECE734CA79"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1286C130DC7D393F"
+				item: { count: 1, id: "sophisticatedstorage:limited_barrel_1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["4210987D4D2322C0"]
+			id: "52F50BCB94110188"
+			rewards: [{
+				id: "1348773AABABE6C6"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0B8424F601C1562C"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "65339644C3A940FE"
+					item: { count: 1, id: "sophisticatedstorage:oak_storage_connector" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+	]
+}

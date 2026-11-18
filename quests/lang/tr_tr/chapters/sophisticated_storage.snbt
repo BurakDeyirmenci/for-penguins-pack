@@ -1,0 +1,16 @@
+{
+	quest.212874EA57C8B7B4.quest_desc: ["&eSophisticated Storage&r normal sandıkların süper güçlü hali. &eChest&r ve &eBarrel&r ilk bakışta vanilla sandık gibi, ama yükseltilebilir ve içlerine upgrade takılabilir. Ahşap türüne göre görünüşleri değişir, yerleştirdikten sonra boyayla (Paintbrush) renklendirebilirsin bile. Üssündeki bütün sandıkları bunlarla değiştirmek isteyeceksin."]
+	quest.212874EA57C8B7B4.title: "Chest ve Barrel"
+	quest.3C492F9E70D1FF39.quest_desc: ["&eHopper Upgrade&r sandığın yanındaki sandıklardan eşya çeker ya da onlara eşya iter, filtreli bir huni gibi. &eSmelting Upgrade&r ise sandığa küçük bir fırın ekler: içine koyduğun cevherleri kendi içinde eritir. Upgrade'lerin 'Advanced' sürümleri daha fazla filtre ve ayar sunar."]
+	quest.3C492F9E70D1FF39.title: "Hopper ve Smelting"
+	quest.4210987D4D2322C0.quest_desc: ["Upgrade'ler sandığın menüsündeki sağ yuvalara takılır. &eCompacting Upgrade&r içine giren eşyaları otomatik sıkıştırır: 9 demir külçe → 1 demir bloğu, böylece 9 kat yer kazanırsın. &eVoid Upgrade&r istemediğin eşyaları (çakıl, toprak, andezit fazlası) silip yok eder; içine filtre olarak koyduğun eşyalar sandığa girer girmez kaybolur. Madenden gelen çöpler için çok kullanışlı."]
+	quest.4210987D4D2322C0.title: "Compacting ve Void"
+	quest.51FBBC33DA705DA8.quest_desc: ["Sandığı kırıp yeniden yapmana gerek yok: elinde &eBasic to Iron Tier Upgrade&r varken yerleştirdiğin sandığa ya da varile sağ tıkla, içindekiler kaybolmadan &eIron&r seviyeye yükselir. Her seviye (Copper → Iron → Gold → Diamond → Netherite) daha fazla yuva ve daha fazla upgrade yeri verir. Netherite seviye sandıklar patlamaya bile dayanıklı."]
+	quest.51FBBC33DA705DA8.title: "Seviye Yükseltme"
+	quest.52F50BCB94110188.quest_desc: ["&eStorage Controller&r birbirine değen bütün Sophisticated sandık ve varilleri tek bir depo gibi birleştirir. Uzaktaki sandıkları &eStorage Connector&r bloklarıyla bağlayabilirsin. Controller'a sağ tıklayıp elindeki eşyaları atarsan, eşyalar zaten o eşyayı içeren sandığa otomatik dağılır. Borularla Controller'a eşya gönderirsen hepsi düzenli şekilde yerine gider. Dağınık üslerin kurtarıcısı!"]
+	quest.52F50BCB94110188.title: "Controller: Birleşik Depo"
+	quest.5F20FA90866D4DCE.quest_desc: ["&eLimited Barrel&r her bölmesinde tek tür eşyadan çok büyük miktarlar tutar; ön yüzünde neyin ne kadar olduğunu görürsün. Ön yüzüne sağ tıklayarak eşya koyar, sol tıklayarak alırsın. Taş, toprak, odun gibi bol bulunan eşyalar için idealdir. 1, 2, 3 ve 4 bölmeli türleri var."]
+	quest.5F20FA90866D4DCE.title: "Limited Barrel"
+	quest.71971D7EC621A934.quest_desc: ["Yükseltmeye devam et: altın, sonra elmas. &eDiamond Chest&r normal bir sandığın yaklaşık 4 katı alan sunar ve 4 upgrade yuvası vardır. Büyük madenciliklerden sonra her şeyi koyacak yerin olur."]
+	quest.71971D7EC621A934.title: "Diamond Chest"
+}

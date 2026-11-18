@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "create_addons"
+	group: "2EAA9718BAF5A32A"
+	icon: { id: "createaddition:electric_motor" }
+	id: "2BE3562A22DFA19F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "104CD58CB004F820"
+			rewards: [{
+				id: "0C174B4B0B9A32C8"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "13DB4B35E2B41ADD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["104CD58CB004F820"]
+			id: "6B0F78EDEBBA7054"
+			rewards: [{
+				id: "2B1F79992EDD0798"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "2912B3FA599D487E"
+					item: { count: 1, id: "createaddition:copper_wire" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "570EE4B41216A5E6"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0F78EDEBBA7054"]
+			id: "401F65AB131399CC"
+			rewards: [{
+				id: "6D3E1D967910518B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7DF04980B9568ACF"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["401F65AB131399CC"]
+			id: "4A72BED74962EF47"
+			rewards: [{
+				id: "3EE38CD5E020B263"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "568F6A13EAC900AE"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A72BED74962EF47"]
+			id: "3B40C4B457DFDC1A"
+			optional: true
+			rewards: [{
+				id: "56CF2F4530D74A5C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "07AE999B27279A7F"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["104CD58CB004F820"]
+			id: "2BDC3D4D8FEE72A2"
+			rewards: [{
+				id: "4E706B3B15C5B28B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "011A98C97A6CF3F3"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					id: "7D4E2822144A9393"
+					item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BDC3D4D8FEE72A2"]
+			id: "0546B9DEF21AAB01"
+			rewards: [{
+				id: "6C03046C5F77F1D8"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "459AC03190D168CA"
+				item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BDC3D4D8FEE72A2"]
+			id: "5AD33F1EC396A1A8"
+			optional: true
+			rewards: [{
+				id: "0DDFD9A9A2E85F01"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5985F83DE659E419"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["104CD58CB004F820"]
+			id: "12E673A9825001AD"
+			optional: true
+			rewards: [{
+				id: "27F63D9A0948442B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7B936FDAA5CDDD89"
+				item: { count: 1, id: "create_dragons_plus:fluid_hatch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

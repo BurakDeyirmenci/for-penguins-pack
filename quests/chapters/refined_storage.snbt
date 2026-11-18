@@ -1,0 +1,219 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "refined_storage"
+	group: "625CBCE1B745D8F7"
+	icon: { id: "refinedstorage:controller" }
+	id: "79478114E89F20C7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "084F9761A2FF8945"
+			rewards: [{
+				id: "45BD4E58566A5DFB"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "34F53A296BA6E7BD"
+					item: { count: 1, id: "refinedstorage:silicon" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "361014B6F9DFD33B"
+					item: { count: 1, id: "refinedstorage:quartz_enriched_iron" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["084F9761A2FF8945"]
+			id: "49BBFFD7F172EB77"
+			rewards: [{
+				id: "19A600C12F763BB8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "46E53B6762C43B24"
+					item: { count: 1, id: "refinedstorage:basic_processor" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "201FEAF9E017F8DD"
+					item: { count: 1, id: "refinedstorage:machine_casing" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49BBFFD7F172EB77"]
+			id: "3280513D3C3C9402"
+			rewards: [{
+				id: "18FDB492A821F252"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "11F883D527E5D562"
+				item: { count: 1, id: "refinedstorage:controller" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3280513D3C3C9402"]
+			id: "04FE2FEF2704C45F"
+			rewards: [{
+				id: "3175D1241A302794"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "270775F6B20D9ADA"
+					item: { count: 1, id: "refinedstorage:disk_drive" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7500D9DF709C0C2F"
+					item: { count: 1, id: "refinedstorage:1k_storage_disk" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04FE2FEF2704C45F"]
+			id: "565C9AA2DCEC6B9E"
+			rewards: [{
+				id: "13179C68E73F4A68"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "43F00FE5673186DC"
+					item: { count: 1, id: "refinedstorage:grid" }
+					type: "item"
+				}
+				{
+					id: "0C275E1DC5AB5CE5"
+					item: { count: 1, id: "refinedstorage:crafting_grid" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["565C9AA2DCEC6B9E"]
+			id: "76B1EDCF73054B54"
+			rewards: [{
+				id: "0C76D4A713739EB2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6DE310D9B868A318"
+				item: { count: 1, id: "refinedstorage:external_storage" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["565C9AA2DCEC6B9E"]
+			id: "70842886766192CA"
+			rewards: [{
+				id: "74E640606EAEFB71"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5788F60E91AA121B"
+					item: { count: 1, id: "refinedstorage:importer" }
+					type: "item"
+				}
+				{
+					id: "5BB4CA67ACF6E982"
+					item: { count: 1, id: "refinedstorage:exporter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70842886766192CA"]
+			id: "71663C13AF625262"
+			rewards: [{
+				id: "5581B56F83BEF9B9"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "390B57593B334E5F"
+					item: { count: 1, id: "refinedstorage:pattern_grid" }
+					type: "item"
+				}
+				{
+					id: "4E279EAA69F692E6"
+					item: { count: 1, id: "refinedstorage:autocrafter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3F6998DA0B7DB047"
+					item: { count: 1, id: "refinedstorage:pattern" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["565C9AA2DCEC6B9E"]
+			id: "32D4C158FA7FC934"
+			rewards: [{
+				id: "454D602F966421B4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "135812077F14B735"
+					item: { count: 1, id: "refinedstorage:wireless_grid" }
+					type: "item"
+				}
+				{
+					id: "50AC4D3DF39DC040"
+					item: { count: 1, id: "refinedstorage:wireless_transmitter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.5d
+		}
+	]
+}

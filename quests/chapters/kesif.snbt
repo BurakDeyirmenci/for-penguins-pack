@@ -1,0 +1,90 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "kesif"
+	group: "25EBC657E4161FBD"
+	icon: { id: "naturescompass:naturescompass" }
+	id: "3F3AF6014542A4E9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "61BFACB89C824618"
+			rewards: [{
+				id: "4836829AB6917138"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "26019C1A02BBA1A6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61BFACB89C824618"]
+			id: "46ECAAA98853AF0A"
+			rewards: [{
+				id: "4B1C0387614B560E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7E0FA69317178210"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["61BFACB89C824618"]
+			id: "40FCCF51AC82C541"
+			rewards: [{
+				id: "45E3773013B95285"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "672C52A4F7E8644C"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["40FCCF51AC82C541"]
+			id: "4543C406E30611A2"
+			rewards: [{
+				id: "2A39FB228C1ED37C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7A2BEBE5298BFB6C"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["46ECAAA98853AF0A"]
+			id: "5927DC4899DC17BE"
+			rewards: [{
+				id: "357FD74477D1199A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "264586753EBD077E"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+	]
+}

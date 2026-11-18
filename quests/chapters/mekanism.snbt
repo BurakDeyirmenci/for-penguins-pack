@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "mekanism"
+	group: "2EAA9718BAF5A32A"
+	icon: { id: "mekanism:steel_casing" }
+	id: "10138904D2605D92"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20ED294F223EF4F8"
+			rewards: [{
+				id: "26D947DCD109BE32"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "47AFC100475924A8"
+				item: { count: 1, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20ED294F223EF4F8"]
+			id: "4435A077E669944F"
+			rewards: [{
+				id: "0802DD7B3A55FB69"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "05E73B0636DD02D1"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20ED294F223EF4F8"]
+			id: "0F4FA35517BBBF9B"
+			rewards: [{
+				id: "1A5B05AC7F8DB424"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61095CF57EB82DE6"
+				item: { count: 1, id: "mekanismgenerators:heat_generator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F4FA35517BBBF9B"]
+			id: "43735FEAF9D4395B"
+			rewards: [{
+				id: "2F7F8D64DACBBA41"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "3D18B9DA5906E980"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+				{
+					id: "46645437ADBF078D"
+					item: { count: 1, id: "mekanism:configurator" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4435A077E669944F"]
+			id: "54768BCA9D88DE1A"
+			rewards: [
+				{
+					id: "65F6D57E31200984"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "73EE13E10833CAEB"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6EBB6170FC82CB64"
+					item: { count: 1, id: "mekanism:ingot_steel" }
+					type: "item"
+				}
+				{
+					id: "618B1660AF57BEFC"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["54768BCA9D88DE1A", "43735FEAF9D4395B"]
+			id: "3502D0853E5FDD6E"
+			rewards: [{
+				id: "73D9AAA316AAB643"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "27E72B3BE4F26C7C"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["3502D0853E5FDD6E"]
+			id: "5DE4D8F040C3CED7"
+			rewards: [{
+				id: "5A8B9B0CD3D7BA14"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "7D32FB8BFD23BE5F"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["5DE4D8F040C3CED7"]
+			id: "68A871FF660208BF"
+			rewards: [{
+				id: "339B090087A41EBB"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4F6B0435BF4D78BF"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3502D0853E5FDD6E"]
+			id: "35B650D99670ABF5"
+			optional: true
+			rewards: [{
+				id: "24880D51FA95FD7E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "541873AD897530C2"
+					item: { count: 1, id: "mekanism:upgrade_speed" }
+					type: "item"
+				}
+				{
+					id: "6E1A1407479A3D81"
+					item: { count: 1, id: "mekanism:upgrade_energy" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["54768BCA9D88DE1A"]
+			id: "7447108C4467BD86"
+			rewards: [{
+				id: "003E81AFF16E5DAB"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "41111E4A02015500"
+				item: { count: 1, id: "mekanism:atomic_disassembler" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["20ED294F223EF4F8"]
+			id: "449ACF337712079A"
+			optional: true
+			rewards: [{
+				id: "6AD54A94ABA4CEF8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "285740ECCF7196BF"
+				item: { count: 1, id: "mekanismtools:osmium_paxel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

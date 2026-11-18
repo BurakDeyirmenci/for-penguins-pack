@@ -1,0 +1,251 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "boss_avi"
+	group: "25EBC657E4161FBD"
+	icon: { id: "minecraft:wither_skeleton_skull" }
+	id: "08655C8611EC0096"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "10BC86D543A0E007"
+			rewards: [{
+				id: "1DF30BAE19F105E4"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "39ABBFA0ADC833A0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10BC86D543A0E007"]
+			id: "6526F023BD5C923E"
+			rewards: [{
+				id: "1B3D62D86A495051"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "27D94EEC70212CC8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6526F023BD5C923E"]
+			id: "42B736872BC8DC38"
+			rewards: [{
+				id: "420C6BCA5AB4FB3D"
+				type: "xp"
+				xp: 700
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "5ACB47DE55323A7D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42B736872BC8DC38"]
+			id: "6CC490EB3726F378"
+			rewards: [{
+				id: "7548ED4223BFA079"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "55F803A94EB4DFF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["10BC86D543A0E007"]
+			id: "23B8A125EFAF1D40"
+			rewards: [{
+				id: "60FAB81049A6854B"
+				type: "xp"
+				xp: 400
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "2A5FBAAE6D7DC4EE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23B8A125EFAF1D40"]
+			id: "51B5B5FE8F021D94"
+			rewards: [{
+				id: "315D36234D294805"
+				type: "xp"
+				xp: 800
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "1C19F7C047F62FF3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51B5B5FE8F021D94"]
+			id: "17B5DD1E08296844"
+			rewards: [{
+				id: "1EDF6BAC98A7327C"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "48F37AC2265BC29D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10BC86D543A0E007"]
+			id: "5D0540FD1316554A"
+			rewards: [{
+				id: "3A2A9493774CA89E"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "27E41A6B501F7F42"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D0540FD1316554A"]
+			id: "5910265988429A3A"
+			rewards: [{
+				id: "6ADE9E35082D25FA"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "55B621B9249336EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5910265988429A3A"]
+			id: "2B3A4C6D232E07ED"
+			rewards: [{
+				id: "4B3D43556D54CC87"
+				type: "xp"
+				xp: 1200
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "727E3BB0D680E792"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B3A4C6D232E07ED"]
+			id: "0A7A4964E58D5171"
+			rewards: [{
+				id: "3D919A03606BDC27"
+				type: "xp"
+				xp: 1200
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "6655C3E243BF5252"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A7A4964E58D5171"]
+			id: "2F341701C28A32D0"
+			rewards: [{
+				id: "522EC301D6C88E8F"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "3BAF3DF22CA43A4C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0A7A4964E58D5171"]
+			id: "38470DC57428A685"
+			rewards: [{
+				id: "2790F588E19A40ED"
+				type: "xp"
+				xp: 1500
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "6FD6F7FD0CB1A3D9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F341701C28A32D0", "38470DC57428A685"]
+			id: "3F45EBA779EA62E1"
+			rewards: [{
+				id: "1B00A5C11694F5E8"
+				type: "xp"
+				xp: 2000
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "3F8788E7EA856BF7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+	]
+}

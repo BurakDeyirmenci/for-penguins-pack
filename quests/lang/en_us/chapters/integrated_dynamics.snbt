@@ -1,0 +1,16 @@
+{
+	quest.0F1CDAEE45AAFD8F.quest_desc: ["&eIntegrated Tunnels&r aynı kablo ağıyla eşya, sıvı ve enerji taşımanı sağlar. Sandıklara &eItem Interface&r takarsan ağa bağlanırlar. &eItem Exporter&r ağdaki eşyaları bir yere aktarır, &eImporter&r bir yerden çeker. Filtreler için Variable Card kullanılır; örneğin 'sadece cevherleri fırına gönder'. Boru döşemeden her şeyi bir kabloyla taşıyabilirsin."]
+	quest.0F1CDAEE45AAFD8F.title: "Integrated Tunnels"
+	quest.1B07F2EFC22F6100.quest_desc: ["&eVariable Card&r, bir bilgiyi taşıyan kart. Örneğin 'sandıktaki demir sayısı' ya da 'gündüz mü' gibi. Okuyuculardan aldığın değeri boş bir karta yazarsın, sonra bu kartı başka parçalarda kullanırsın. Kartları ağda saklamak için &eVariable Store&r kullanılır; kart içindeki bilgi ağda herkes tarafından okunabilir."]
+	quest.1B07F2EFC22F6100.title: "Variable Card"
+	quest.2755A7E50A0D2D6A.quest_desc: ["&eLogic Programmer&r, kartlara mantık işlemleri yazmanı sağlar: 'eğer sandıkta 64'ten az demir varsa' gibi koşullar, toplama-çıkarma, karşılaştırmalar. Bu sonuçları redstone yazıcılarına bağlayarak makineleri açıp kapatabilirsin. Başta karışık gelebilir; modun içindeki kılavuz kitabında (&eOn the Dynamics of Integration&r) adım adım öğreticiler var."]
+	quest.3F493E5E8FCE9604.quest_desc: ["Integrated Dynamics bir &emantık ve otomasyon&r modu; biraz programlamaya benzer ama korkmana gerek yok. Her şey mavi yapraklı &eMenril&r ağacıyla başlar; bunları genelde ormanlık biyomlarda görürsün. Fidanını alıp kendi ağaç tarlanı kur. Menril odunundan çıkan reçine (resin) modun ana malzemesi."]
+	quest.5834579BC132BF1A.quest_desc: ["İlk projen: bir sandığın yanına kablo çek, kabloya &eInventory Reader&r tak ve sandığa baksın. Okuyucunun menüsünden bir bilgi seç (örneğin toplam eşya sayısı) ve bir Variable Card'a yaz. Sonra bir &eDisplay Panel&r tak ve kartı içine koy: panel sandıktaki sayıyı canlı gösterir! Aynı mantıkla enerji, sıvı, zaman ve daha birçok şeyi ölçebilirsin."]
+	quest.5834579BC132BF1A.title: "Reader ve Display Panel"
+	quest.5E68FFE6AA077411.quest_desc: ["&eSqueezer&r'ın içine Menril odunu koy ve üstüne zıplayarak ez: &eMenril Resin&r adlı bir sıvı çıkar. Bu sıvıyı &eDrying Basin&r'e aktarırsan kuruyup &eCrystalized Menril Chunk&r'a dönüşür. Bu kristaller kabloların ve parçaların temel malzemesi. İleride bu işi otomatik yapan mekanik sürümleri de var."]
+	quest.5E68FFE6AA077411.title: "Squeezer ve Drying Basin"
+	quest.77D875CF71A7951F.quest_desc: ["&eStorage Terminal&r (Integrated Terminals), ağa bağlı bütün sandıkların içeriğini tek bir ekranda gösterir. Buradan herhangi bir sandıktaki eşyayı arayıp alabilir, eşyaları içeri atabilir, hatta tarif yapabilirsin. Taşınabilir sürümüyle de üssün içinde her yerden erişebilirsin."]
+	quest.77D875CF71A7951F.title: "Storage Terminal"
+	quest.7EEB49541EF2E5D8.quest_desc: ["&eLogic Cable&r bütün parçaları birbirine bağlayan ağ kablosu. Kabloya &epart&r denen küçük modüller takarsın: okuyucular (reader) bir şeyi ölçer, yazıcılar (writer) bir şeyi değiştirir, ekranlar (display) bilgi gösterir. Hepsi aynı kablo ağına bağlıysa birbirleriyle konuşabilirler. Kabloları &eWrench&r ile söküp düzenleyebilirsin."]
+	quest.7EEB49541EF2E5D8.title: "Logic Cable"
+}

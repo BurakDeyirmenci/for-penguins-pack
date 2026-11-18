@@ -1,0 +1,262 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "botania"
+	group: "03203A1312E25E36"
+	icon: { id: "botania:pure_daisy" }
+	id: "2EE3D32B8FC983B7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "28813196E608605F"
+			rewards: [{
+				id: "16C3BF1C86771C15"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2356AA203F6DBDB3"
+				item: { count: 1, id: "botania:lexicon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28813196E608605F"]
+			id: "00AE22F9E8CE16E9"
+			rewards: [{
+				id: "1D65F7D249073BA9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "74BF6B4FEEE82834"
+					item: { count: 1, id: "botania:apothecary_default" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "41A50D91A6A51C20"
+					item: { count: 1, id: "botania:white_mystical_flower" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00AE22F9E8CE16E9"]
+			id: "1F8296319B8C31A0"
+			rewards: [{
+				id: "74A437B94B96E158"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "0EC676DCB3406ECB"
+					item: { count: 1, id: "botania:pure_daisy" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66FF91BE329705EB"
+					item: { count: 1, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "20673362ADBD44DE"
+					item: { count: 1, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F8296319B8C31A0"]
+			id: "27F6843BEB68781A"
+			rewards: [{
+				id: "58B8440BABE971DD"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0F8E477AFAF28293"
+				item: { count: 1, id: "botania:twig_wand" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27F6843BEB68781A"]
+			id: "5E91FB22429F1BC1"
+			rewards: [{
+				id: "5DDD1C819723DB81"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "6F0AB16BF9BDEEC1"
+					item: { count: 1, id: "botania:mana_spreader" }
+					type: "item"
+				}
+				{
+					id: "7B4012861BBABEF6"
+					item: { count: 1, id: "botania:mana_pool" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E91FB22429F1BC1"]
+			id: "0E30A1E0E9888576"
+			rewards: [{
+				id: "63BCEE72318D1804"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 2L
+				id: "0F3E03B1B83643A3"
+				item: { count: 1, id: "botania:endoflame" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E30A1E0E9888576"]
+			id: "460037BBCA31F530"
+			rewards: [{
+				id: "5AE959C040EF90C4"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 8L
+				id: "63F592552AD3218F"
+				item: { count: 1, id: "botania:manasteel_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["460037BBCA31F530"]
+			id: "1F40DB1496457714"
+			rewards: [{
+				id: "270AFB86543DE642"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "5CCB1C3999D867C7"
+					item: { count: 1, id: "botania:runic_altar" }
+					type: "item"
+				}
+				{
+					id: "77B5B7CC6CFCE7BF"
+					item: { count: 1, id: "botania:rune_water" }
+					type: "item"
+				}
+				{
+					id: "7A2CEBC6659D2CA0"
+					item: { count: 1, id: "botania:rune_fire" }
+					type: "item"
+				}
+				{
+					id: "235B1F70C630FAB9"
+					item: { count: 1, id: "botania:rune_earth" }
+					type: "item"
+				}
+				{
+					id: "05D6D9BC93C46F2E"
+					item: { count: 1, id: "botania:rune_air" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F40DB1496457714"]
+			id: "26D44F500F7CF0C0"
+			rewards: [{
+				id: "5B21922004B316E1"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6A01C638B08C517D"
+					item: { count: 1, id: "botania:terra_plate" }
+					type: "item"
+				}
+				{
+					id: "18B70B22B2BA3677"
+					item: { count: 1, id: "botania:terrasteel_ingot" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26D44F500F7CF0C0"]
+			id: "26A035DA0DD0CA0E"
+			rewards: [{
+				id: "69C3D03814CE39CA"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4E7C643EFE50482F"
+				item: { count: 1, id: "botania:alfheim_portal" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26A035DA0DD0CA0E"]
+			id: "48BBAE6958FCEDEC"
+			rewards: [{
+				id: "5A21605AA4F2CEEF"
+				type: "xp"
+				xp: 800
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					entity: "botania:doppleganger"
+					id: "50435F811E62DCCC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					count: 8L
+					id: "455EDF9684569906"
+					item: { count: 1, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+	]
+}

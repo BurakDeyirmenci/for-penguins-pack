@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "integrated_dynamics"
+	group: "2EAA9718BAF5A32A"
+	icon: { id: "integrateddynamics:logic_programmer" }
+	id: "3E1AF97D3B4E7A23"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F493E5E8FCE9604"
+			rewards: [{
+				id: "4AF1D12C5C78013A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D906D83B1F7AC5B"
+				item: { count: 1, id: "integrateddynamics:menril_sapling" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F493E5E8FCE9604"]
+			id: "5E68FFE6AA077411"
+			rewards: [{
+				id: "5E8D5A9D05BAAD3E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "398755640913EC8E"
+					item: { count: 1, id: "integrateddynamics:squeezer" }
+					type: "item"
+				}
+				{
+					id: "7BA106F6D8D3AE0D"
+					item: { count: 1, id: "integrateddynamics:drying_basin" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E68FFE6AA077411"]
+			id: "7EEB49541EF2E5D8"
+			rewards: [{
+				id: "57C03249938B66CC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 16L
+				id: "6C12C77470F6756A"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EEB49541EF2E5D8"]
+			id: "1B07F2EFC22F6100"
+			rewards: [{
+				id: "51BE27F1B1667287"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "6F21B31A4D0FC58C"
+					item: { count: 1, id: "integrateddynamics:variable" }
+					type: "item"
+				}
+				{
+					id: "44E4F01CE1BAE042"
+					item: { count: 1, id: "integrateddynamics:variablestore" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["1B07F2EFC22F6100"]
+			id: "5834579BC132BF1A"
+			rewards: [{
+				id: "24A15C0A89F10D49"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "4783B3884E38B47F"
+					item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
+					type: "item"
+				}
+				{
+					id: "0FD4C746DF2A8164"
+					item: { count: 1, id: "integrateddynamics:part_display_panel" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B07F2EFC22F6100"]
+			id: "2755A7E50A0D2D6A"
+			rewards: [{
+				id: "2C1A6286267C863A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4A1927062CD3B8AC"
+				item: { count: 1, id: "integrateddynamics:logic_programmer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EEB49541EF2E5D8"]
+			id: "0F1CDAEE45AAFD8F"
+			rewards: [{
+				id: "64D639EB786250E6"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "39EB3D223F911922"
+					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					type: "item"
+				}
+				{
+					id: "04CA2972F5122556"
+					item: { count: 1, id: "integratedtunnels:part_exporter_item" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["0F1CDAEE45AAFD8F"]
+			id: "77D875CF71A7951F"
+			rewards: [{
+				id: "13F6D2CED7D3FD91"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0FF7F7F1858DAFA1"
+				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+	]
+}

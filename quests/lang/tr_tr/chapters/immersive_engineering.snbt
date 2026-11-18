@@ -1,0 +1,19 @@
+{
+	quest.064C76DD99E7A415.quest_desc: ["&eCrusher&r cevherleri toz haline getirip &eher cevherden 2 külçe&r almanı sağlar. Kılavuzdaki (Engineer's Manual) yapıyı kur ve çekiçle vur, sonra elektrik bağla. Üstündeki hazneye attığın her şeyi öğütür. Bu yapıyı kurunca IE'nin ileri seviye makinelerine (Arc Furnace, Excavator, Refinery) hazırsın; hepsini kılavuzda bulabilirsin. Kurduktan sonra bu görevi işaretle."]
+	quest.064C76DD99E7A415.title: "Crusher Kur"
+	quest.0C67BC301FE884D7.quest_desc: ["Normal tahtaları ortaya koyup Creosote kovasıyla çevrelersen &eTreated Wood&r elde edersin. Bu çürümeyen, yanmayan özel bir tahta. IE'nin rüzgar ve su değirmenlerinden çitlerine, birçok yapı parçası Treated Wood'dan yapılır."]
+	quest.0C67BC301FE884D7.title: "Treated Wood"
+	quest.15C86D506A3A0383.quest_desc: ["&eEngineer's Workbench&r IE'nin silah ve alet masasıdır. Burada &eRevolver&r, &eMining Drill&r ve bunların geliştirmelerini yaparsın: daha fazla mermi, daha hızlı kazma, su altında çalışma gibi. Matkap kafaları zamanla aşınır, yedek bulundur."]
+	quest.15C86D506A3A0383.title: "Engineer's Workbench"
+	quest.437C06930FC4FA1F.quest_desc: ["IE'de elektrik üretmenin ilk yolu: akan suya bir &eWater Wheel&r (ya da açık havaya bir &eWindmill&r) koy ve arkasına bir &eKinetic Dynamo&r yerleştir. Değirmen döndükçe dynamo elektrik üretir. Su değirmeni akıntının hızına, yel değirmeni yüksekliğe ve etrafındaki boşluğa göre daha iyi çalışır."]
+	quest.437C06930FC4FA1F.title: "Su Değirmeni ve Dynamo"
+	quest.44E753C36CC86399.quest_desc: ["IE'de elektrik direklerle taşınır. Makinelere &eLV Connector&r tak, elinde &eCopper Wire Coil&r varken bir connector'a, sonra diğerine sağ tıkla; aralarına gerçek bir kablo çekilir. &eLV Capacitor&r elektriği depolar. Dikkat: LV kablolar düşük gerilim taşır; daha yüksek gerilim (MV, HV) için farklı kablolar gerekir, aksi halde kablo yanar. Kabloları &eWirecutter&r ile kesebilirsin."]
+	quest.44E753C36CC86399.title: "Kablolar ve Kapasitör"
+	quest.4F4228986C5E943E.quest_desc: ["Immersive Engineering'in makineleri çoğunlukla &eçok bloklu yapılar&r (multiblock): blokları belli bir şekilde dizersin, sonra &eEngineer's Hammer&r ile sağ tıklarsın ve yapı makineye dönüşür. Hangi bloğu nereye koyacağını &eEngineer's Manual&r gösterir; kitabı açıp makinenin sayfasına bak, 3 boyutlu bir modeli bile var. Çekiç ayrıca cevherleri toz haline getirmek için de kullanılır."]
+	quest.4F4228986C5E943E.title: "Engineer's Hammer ve Manual"
+	quest.5791933D4C723DFF.quest_desc: ["&eBlast Furnace&r: Fire Brick'lerle (Blast Brick) 3x3x3 bir yapı kur ve çekiçle vur. İçine demir ve Coal Coke koyarsan &eSteel Ingot&r üretir. Çelik IE'nin en önemli malzemesi; gelişmiş makinelerin neredeyse hepsi çelik ister. Biraz yavaştır, birkaç fırını yan yana kurabilirsin."]
+	quest.75B32ABC62A9357C.quest_desc: ["Büyük makineler bu bloklardan yapılır: &eLight Engineering Block&r ve &eHeavy Engineering Block&r. Bunlar demir/çelik parçalar ve mekanik bileşenlerle yapılır. Bir sonraki adım olan Crusher ve diğer büyük makineler için bolca hazırla."]
+	quest.75B32ABC62A9357C.title: "Mühendislik Blokları"
+	quest.791FD9630F8CF769.quest_desc: ["İlk makinen &eCoke Oven&r: 27 adet &eCoke Brick&r ile 3x3x3 bir küp yap ve ön yüzün ortasına çekiçle vur. İçine kömür koyarsan yavaşça &eCoal Coke&r ve &eCreosote Oil&r üretir. Coal Coke çelik yapmak için, Creosote ise ahşabı işlemek için lazım. Fırın sıvıyı içinde saklar, bir kovayla çıkarabilirsin."]
+	quest.791FD9630F8CF769.title: "Coke Oven"
+}

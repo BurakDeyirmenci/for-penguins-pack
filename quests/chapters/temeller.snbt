@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "temeller"
+	group: ""
+	icon: { id: "minecraft:blue_ice" }
+	id: "3F35C8109E711515"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AB709CBFC164331"
+			rewards: [
+				{
+					id: "6B0046D4611FA2E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6D946514E58D8D58"
+					item: { count: 16, id: "minecraft:cooked_cod" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "466E028F34AB2065"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "201C241FCF351A9C"
+			rewards: [{
+				id: "51F8E16BEE9829D4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "35966D9DC43DDDA2"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["201C241FCF351A9C"]
+			id: "3BBB95E77D0D7FAE"
+			rewards: [{
+				id: "4BBF3D22FD7B4E1F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7D6D712EF1034158"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "50224EB6D5EEC27A"
+			rewards: [{
+				id: "76330BB44CDD729B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4F38B4041D644AA6"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "3A907F6F1B6B5A41"
+			rewards: [{
+				id: "4E61705876F46654"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2047E5F7FA6C3488"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "18932E6926641259"
+			rewards: [{
+				id: "70385220C3B4F204"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "732ABF96F706EBEB"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "2C9BBEB8D1945F05"
+			rewards: [{
+				id: "7F36DCA6C1EBFB24"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "193DB063A643D99A"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "48881D60036EBFC2"
+			rewards: [{
+				id: "7A55824727052AB0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "28D9487FD6333294"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "4A799384AD9978E1"
+			rewards: [{
+				id: "22BA1D3A9C572611"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "38C540267C72328F"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "6335D934FE761105"
+			rewards: [{
+				id: "55FEF43EE6EC79D3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "107A91EE8DC28075"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6335D934FE761105"]
+			id: "2AA4C27EE254D5DA"
+			rewards: [{
+				id: "266FAF131BBBB47E"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "3237AD6E40757573"
+				item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AA4C27EE254D5DA"]
+			id: "0388683A04FABBA9"
+			rewards: [{
+				id: "73A7BB900CE013DC"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "6967EA51DBC19461"
+				item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "6C52651C6D3D9E92"
+			rewards: [{
+				id: "5DDC1D046666F594"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "73C12542992FE014"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C52651C6D3D9E92"]
+			id: "102FE4297D22ABA2"
+			rewards: [
+				{
+					id: "0ACAE4CEAF9D71D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2F01E13D081F3BF7"
+					item: { count: 2, id: "waystones:warp_scroll" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B61A40D58D72829"
+				item: { count: 1, id: "waystones:warp_scroll" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3AB709CBFC164331"]
+			id: "6E8699DD3AD0F37D"
+			rewards: [{
+				id: "12C75D8267951A7D"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "34723C024A487EEA"
+				item: { count: 1, id: "tiab:time_in_a_bottle" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["50224EB6D5EEC27A", "3A907F6F1B6B5A41"]
+			id: "12D48D693279F6E5"
+			rewards: [{
+				id: "72D882147A069E90"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "496B8C3F5B8C8E98"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+}

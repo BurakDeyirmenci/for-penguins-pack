@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "irons_spellbooks"
+	group: "03203A1312E25E36"
+	icon: { id: "irons_spellbooks:iron_spell_book" }
+	id: "3D4C1587C87099CC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "681A2FBB806F725F"
+			rewards: [{
+				id: "6DF94B7BA3EB2C95"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "35A9A8602EA30A53"
+				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["681A2FBB806F725F"]
+			id: "402B7907B5BBCF11"
+			rewards: [{
+				id: "4DD9F42D3CE326EB"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "3E72266C6E565370"
+					item: { count: 1, id: "irons_spellbooks:copper_spell_book" }
+					type: "item"
+				}
+				{
+					id: "4E6DA79138790EC5"
+					item: { count: 1, id: "irons_spellbooks:inscription_table" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["402B7907B5BBCF11"]
+			id: "6F63267C0CD4062A"
+			rewards: [{
+				id: "36BBE5BFB39BD139"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "447E886329632AA2"
+					item: { count: 1, id: "irons_spellbooks:iron_spell_book" }
+					type: "item"
+				}
+				{
+					id: "06EB3D6D0294C8C8"
+					item: { count: 1, id: "irons_spellbooks:gold_spell_book" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["6F63267C0CD4062A"]
+			id: "17C76F6A7253102A"
+			rewards: [{
+				id: "1C17C1DF4533535A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "41975E02DC3A7470"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["402B7907B5BBCF11"]
+			id: "1B632047F9F5E16D"
+			rewards: [{
+				id: "1076EA74BC034B75"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "06B869554DCFE575"
+				item: { count: 1, id: "irons_spellbooks:alchemist_cauldron" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["1B632047F9F5E16D"]
+			id: "67350A58F8B0015C"
+			rewards: [{
+				id: "28880CFA20049836"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "41C21455A1397F36"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["67350A58F8B0015C"]
+			id: "2BAF1C42641595D2"
+			rewards: [{
+				id: "26C19B6C92264FF3"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0FF8313C84DC29D2"
+					item: { count: 1, id: "irons_spellbooks:upgrade_orb" }
+					type: "item"
+				}
+				{
+					id: "45ED01D5A88F08DA"
+					item: { count: 1, id: "irons_spellbooks:arcane_ingot" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

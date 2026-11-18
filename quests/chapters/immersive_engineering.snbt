@@ -1,0 +1,213 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "immersive_engineering"
+	group: "2EAA9718BAF5A32A"
+	icon: { id: "immersiveengineering:hammer" }
+	id: "46241502AD047BC9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4F4228986C5E943E"
+			rewards: [{
+				id: "549D2AFEDF298F82"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0D4928A65EE71739"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+				{
+					id: "231D13901CB26EE9"
+					item: { count: 1, id: "immersiveengineering:manual" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F4228986C5E943E"]
+			id: "791FD9630F8CF769"
+			rewards: [{
+				id: "7793D1C30A44274E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 27L
+					id: "29E034FCA9848855"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4B986287504A0B7B"
+					item: { count: 1, id: "immersiveengineering:coal_coke" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["791FD9630F8CF769"]
+			id: "0C67BC301FE884D7"
+			rewards: [{
+				id: "2F2032C0838E20DA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 16L
+				id: "1B5F3A43F012696D"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["0C67BC301FE884D7"]
+			id: "437C06930FC4FA1F"
+			rewards: [{
+				id: "5B691FF522CC4DD4"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "4DE775AB7578A422"
+					item: { count: 1, id: "immersiveengineering:watermill" }
+					type: "item"
+				}
+				{
+					id: "73E91D9D4250CAF4"
+					item: { count: 1, id: "immersiveengineering:dynamo" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["437C06930FC4FA1F"]
+			id: "44E753C36CC86399"
+			rewards: [{
+				id: "6F01737BB32C4DBF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "167C239D0780DB79"
+					item: { count: 1, id: "immersiveengineering:wirecoil_copper" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0F81DE380213034A"
+					item: { count: 1, id: "immersiveengineering:connector_lv" }
+					type: "item"
+				}
+				{
+					id: "349FBB66C2D03BDD"
+					item: { count: 1, id: "immersiveengineering:capacitor_lv" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["791FD9630F8CF769"]
+			id: "5791933D4C723DFF"
+			rewards: [
+				{
+					id: "2E587B971889FF7C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "5C63B38B5E378D3B"
+					item: { count: 8, id: "immersiveengineering:ingot_steel" }
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2E6E5BF777360070"
+				item: { count: 1, id: "immersiveengineering:ingot_steel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["5791933D4C723DFF"]
+			id: "15C86D506A3A0383"
+			rewards: [{
+				id: "7A805D412CB16D01"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "39E296BA554E3F5A"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["5791933D4C723DFF", "44E753C36CC86399"]
+			id: "75B32ABC62A9357C"
+			rewards: [{
+				id: "1C018FC17770A5C3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "70C5103C831D1A10"
+					item: { count: 1, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "17E12E3A73C1C81D"
+					item: { count: 1, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75B32ABC62A9357C"]
+			id: "064C76DD99E7A415"
+			rewards: [{
+				id: "2D59E9DACD2446AB"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5DC285DA8C9C8541"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

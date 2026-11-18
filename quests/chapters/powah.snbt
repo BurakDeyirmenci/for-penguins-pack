@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "powah"
+	group: "2EAA9718BAF5A32A"
+	icon: { id: "powah:energizing_orb" }
+	id: "091F443D16F9D169"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F6FB17EF96714AB"
+			rewards: [{
+				id: "510BFADB8BF63A06"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 16L
+				id: "66A9E02022475663"
+				item: { count: 1, id: "powah:dielectric_paste" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F6FB17EF96714AB"]
+			id: "335D8194AA7BCEE3"
+			rewards: [{
+				id: "1F07534D6F72804F"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "0AC842A067750F6B"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "08A4D5A0BAA41E9F"
+					item: { count: 1, id: "powah:energizing_rod_starter" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["2F6FB17EF96714AB"]
+			id: "2AE172B1F0050118"
+			rewards: [{
+				id: "214610A094AE3DAC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18382ADCD9DD0097"
+				item: { count: 1, id: "powah:furnator_starter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["2AE172B1F0050118"]
+			id: "3E908C5A21E85E77"
+			rewards: [{
+				id: "55AE9B023AD05BB2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "6B21E9DE7B29230B"
+					item: { count: 1, id: "powah:energy_cell_starter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2C73E656602558DA"
+					item: { count: 1, id: "powah:energy_cable_starter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["335D8194AA7BCEE3"]
+			id: "211E7476C45D157B"
+			rewards: [{
+				id: "68C022E8F3DF0D07"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 4L
+				id: "3AF86B811D651866"
+				item: { count: 1, id: "powah:crystal_blazing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["211E7476C45D157B"]
+			id: "3D792564BAF4951B"
+			rewards: [{
+				id: "4CFF41A3E7DF9703"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 4L
+				id: "4E948FABA3FE690D"
+				item: { count: 1, id: "powah:crystal_niotic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["3D792564BAF4951B"]
+			id: "65E4A8600143FBB8"
+			rewards: [{
+				id: "27B88D8CE690851E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 4L
+				id: "7A983CD8A6E3D698"
+				item: { count: 1, id: "powah:crystal_spirited" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65E4A8600143FBB8"]
+			id: "538B0FFBF1516433"
+			rewards: [{
+				id: "4D12B1B627EEEC34"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 2L
+				id: "3EF2C5F156A6833D"
+				item: { count: 1, id: "powah:crystal_nitro" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["211E7476C45D157B"]
+			id: "033585D04691379D"
+			rewards: [{
+				id: "3A83817D76D189EB"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 36L
+				id: "59E5835D2203CAFB"
+				item: { count: 1, id: "powah:reactor_starter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.8d
+		}
+	]
+}

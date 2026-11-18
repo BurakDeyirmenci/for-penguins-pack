@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "silahlar"
+	group: "25EBC657E4161FBD"
+	icon: { id: "simplyswords:iron_longsword" }
+	id: "447D9F1151366016"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0FA86D853F846F05"
+			rewards: [{
+				id: "3CCAFCC8D395D26C"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5CE792A64A8B1A34"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA86D853F846F05"]
+			id: "5FE80BC10DFF95A6"
+			rewards: [{
+				id: "4F9C4F9BDE2D00AC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "295E2894D88F515B"
+				item: { count: 1, id: "simplyswords:iron_longsword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FE80BC10DFF95A6"]
+			id: "4F3CE323F97D3904"
+			rewards: [{
+				id: "762C2A332F60A215"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "5039A6FC0C0FFA66"
+					item: { count: 1, id: "simplyswords:iron_katana" }
+					type: "item"
+				}
+				{
+					id: "24415E73BC1FEB3C"
+					item: { count: 1, id: "simplyswords:iron_greataxe" }
+					type: "item"
+				}
+				{
+					id: "4C73ECF082CCD253"
+					item: { count: 1, id: "simplyswords:iron_spear" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F3CE323F97D3904"]
+			id: "0453B640349D64D5"
+			optional: true
+			rewards: [{
+				id: "03B8958A41EEFB25"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "778546911D9B6120"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

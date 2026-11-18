@@ -1,0 +1,181 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "occultism"
+	group: "03203A1312E25E36"
+	icon: { id: "occultism:dictionary_of_spirits" }
+	id: "04A8EEB70DFF77BC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7B46E07EA278FBED"
+			rewards: [{
+				id: "74EA6AB04CC67C28"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "2EE250B208D722D2"
+					item: { count: 1, id: "occultism:datura_seeds" }
+					type: "item"
+				}
+				{
+					id: "2353FA26CA05C2E0"
+					item: { count: 1, id: "occultism:dictionary_of_spirits" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B46E07EA278FBED"]
+			id: "0FD3AB0BD35CFB5D"
+			rewards: [{
+				id: "063D762CEFAEAAD3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 4L
+				id: "68BF5DB865A5AE1B"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FD3AB0BD35CFB5D"]
+			id: "21280DD9E7F731C3"
+			rewards: [{
+				id: "2DD03ECB17A7B8F8"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "1504B1D2F5F0825A"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					id: "66CDBB6C62BC51CF"
+					item: { count: 1, id: "occultism:spirit_attuned_gem" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21280DD9E7F731C3"]
+			id: "2A2916E58A272CA3"
+			rewards: [{
+				id: "1FDEE380F0DB8D74"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3F01542960A0996F"
+				item: { count: 1, id: "occultism:chalk_white" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["21280DD9E7F731C3"]
+			id: "63EEE80EADF037E2"
+			rewards: [{
+				id: "1925E05822C4B052"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7A2FC92C6DCB0F4D"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					id: "7F48B78324C4D773"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["2A2916E58A272CA3", "63EEE80EADF037E2"]
+			id: "4E178007677D8ED3"
+			rewards: [{
+				id: "675889F3BF0E5608"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "6C730A8745E064EC"
+					item: { count: 1, id: "occultism:book_of_binding_foliot" }
+					type: "item"
+				}
+				{
+					id: "5CC4ABCEB22A6248"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E178007677D8ED3"]
+			id: "76EEB0D1F50A978C"
+			rewards: [{
+				id: "5A788F20C976D4C8"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "266D2E8638E3938A"
+				item: { count: 1, id: "occultism:soul_gem" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["4E178007677D8ED3"]
+			id: "3E77C14D44AC6818"
+			rewards: [{
+				id: "1922EB52DDFD41C3"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "09AAA310E39AB770"
+					item: { count: 1, id: "occultism:storage_controller" }
+					type: "item"
+				}
+				{
+					id: "6AD02AB5FF331349"
+					item: { count: 1, id: "occultism:dimensional_matrix" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.8d
+		}
+	]
+}

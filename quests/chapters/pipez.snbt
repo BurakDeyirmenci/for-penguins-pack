@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "pipez"
+	group: "2EAA9718BAF5A32A"
+	icon: { id: "pipez:item_pipe" }
+	id: "692E9C1ECAD13E23"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4123B196362E9C94"
+			rewards: [{
+				id: "2E97A53640E5CDE0"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "0EFB572FBF89B4F0"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4123B196362E9C94"]
+			id: "74A5CFB8439454CE"
+			rewards: [{
+				id: "0AAF1FF9238B7D42"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "2CC2EAD06D59B2DA"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4123B196362E9C94"]
+			id: "545FC19C72C606C1"
+			rewards: [{
+				id: "51B1E053C197E7BB"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 8L
+				id: "374A17546041A25F"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74A5CFB8439454CE", "545FC19C72C606C1"]
+			id: "265998B23F251205"
+			rewards: [{
+				id: "1651098CBA80598B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 4L
+				id: "008CCBC97A2C1DE9"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4123B196362E9C94"]
+			id: "7AB60C11AD20615B"
+			rewards: [{
+				id: "7A777AD136542A14"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2517577492E248A4"
+				item: { count: 1, id: "pipez:basic_upgrade" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

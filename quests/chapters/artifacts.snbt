@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "artifacts"
+	group: "25EBC657E4161FBD"
+	icon: { id: "artifacts:cloud_in_a_bottle" }
+	id: "73A278ECAFBD752E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B4DDB58EDDAB12B"
+			rewards: [{
+				id: "6543DA0887C467BC"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6283E8B7FAF2B773"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B4DDB58EDDAB12B"]
+			id: "09B9B836ADA23FD9"
+			rewards: [{
+				id: "21712D1B513B5E30"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "01CF0EA70D1F2FD0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -3.8d
+		}
+		{
+			dependencies: ["6B4DDB58EDDAB12B"]
+			id: "10E55AD8C44A12AD"
+			optional: true
+			rewards: [{
+				id: "79DA059689E8DB8E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "139CC1E26924CED0"
+				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.2d
+		}
+		{
+			dependencies: ["6B4DDB58EDDAB12B"]
+			id: "33DB26EF46D7594E"
+			optional: true
+			rewards: [{
+				id: "5E7CD3890ED32FCC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1A95068F431C3D64"
+				item: { count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.8d
+		}
+		{
+			dependencies: ["6B4DDB58EDDAB12B"]
+			id: "3F4E49B25CBB7858"
+			optional: true
+			rewards: [{
+				id: "07EC7E4B74C1315D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "611CA6A5FD101AF1"
+				item: { count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.8d
+		}
+		{
+			dependencies: ["6B4DDB58EDDAB12B"]
+			id: "44BEAF5E8BB1B8D6"
+			optional: true
+			rewards: [{
+				id: "461C74AFD8714364"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3BEB34782C4F7B3F"
+				item: { count: 1, id: "artifacts:night_vision_goggles" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.2d
+		}
+		{
+			dependencies: ["6B4DDB58EDDAB12B"]
+			id: "6159BC4D35DB7070"
+			optional: true
+			rewards: [{
+				id: "211DD5F3A485E0BF"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "50FA7ABCD8A270CE"
+				item: { count: 1, id: "artifacts:crystal_heart" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.8d
+		}
+	]
+}

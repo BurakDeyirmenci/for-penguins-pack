@@ -1,0 +1,30 @@
+{
+	quest.0A7A4964E58D5171.quest_desc: ["Yer altındaki &eAncient Factory&r'de bekleyen dev bir savaş makinesi; lazerler ve füzelerle saldırır. Wither'dan bile tehlikeli, takımca gidin."]
+	quest.0A7A4964E58D5171.title: "The Harbinger"
+	quest.10BC86D543A0E007.quest_desc: ["Bu pakette vanilla'nın ötesinde birçok boss var; çoğu &eözel yapılarda&r bekliyor ve hepsi ciddi tehlike. Yalnız gitme, iyi zırh ve yemek al, iksir hazırla. Yerlerini bulmak için &eExplorer's Compass&r kullan. Ölürsen eşyaların mezar taşında kalır, ama yine de dikkatli ol. Her boss güzel ödüller ve büyük XP veriyor."]
+	quest.10BC86D543A0E007.title: "Boss Avına Hazırlık"
+	quest.17B5DD1E08296844.quest_desc: ["Ancient City'lerin kör bekçisi; sesleri duyar ve çok sert vurur. Normalde kaçmak önerilir ama Apothic Enchanting'in &eWarden Tendril&r'ı için onu yenmen gerekiyor. Takımca gidin, uzaktan saldırın ve sessiz olun."]
+	quest.17B5DD1E08296844.title: "Warden"
+	quest.23B8A125EFAF1D40.quest_desc: ["Okyanus anıtlarının (Ocean Monument) bekçisi. YUNG's ile anıtlar daha büyük ve karmaşık. Su altında kazma hızını düşüren laneti var; Conduit ya da su altı iksirleriyle git."]
+	quest.23B8A125EFAF1D40.title: "Elder Guardian"
+	quest.2B3A4C6D232E07ED.quest_desc: ["Nether'deki &eBurning Arena&r'nın alevli şövalyesi. Kalkanını kırman, sonra hızlı saldırılarından kaçman gerekiyor. Ateş direnci ve iyi bir kalkan şart."]
+	quest.2B3A4C6D232E07ED.title: "Ignis"
+	quest.2F341701C28A32D0.quest_desc: ["Derin okyanusun altındaki &eSunken City&r'nin efendisi, devasa bir deniz canavarı. Su altında savaşacağın için su altı nefesi ve hızlı yüzme şart."]
+	quest.2F341701C28A32D0.title: "The Leviathan"
+	quest.38470DC57428A685.quest_desc: ["Çöldeki &eCursed Pyramid&r'in derinliklerinde uyuyan kadim bir firavun iskeleti. Kum fırtınaları ve dev kemik saldırılarıyla savaşır."]
+	quest.38470DC57428A685.title: "Ancient Remnant"
+	quest.3F45EBA779EA62E1.quest_desc: ["Karlı dağlardaki &eFrosted Prison&r'da hapsedilmiş lanetli bir ruh. Cataclysm'in en zor boss'larından biri. Onu da yendiysen bu sunucunun efsanesi sizsiniz!"]
+	quest.3F45EBA779EA62E1.title: "Maledictus"
+	quest.42B736872BC8DC38.quest_desc: ["Karlı biyomlarda uyuyan dev bir buz canavarı. Buz nefesi ve yere vuruşlarıyla saldırır; ateş direnci yerine &esoğuğa karşı&r hazırlıklı ol. Yendiğinde bir &eIce Crystal&r düşürür, buz büyüsü yapan güçlü bir eşya."]
+	quest.42B736872BC8DC38.title: "Frostmaw"
+	quest.51B5B5FE8F021D94.quest_desc: ["3 Wither Skeleton kafası ve 4 Soul Sand ile çağrılan klasik boss. Patlamaları çevreyi yok eder, o yüzden üssünden uzakta çağır. Yendiğinde düşen &eNether Star&r birçok ileri seviye tarifte lazım (Powah Nitro, Apotheosis Augmenting Table...)."]
+	quest.51B5B5FE8F021D94.title: "Wither"
+	quest.5910265988429A3A.quest_desc: ["Nether'deki &eSoul Black Smith&r yapısında yatan dev bir netherit golem. Lav topları fırlatır ve yeri sarsar. Ateş direnci iksiri olmadan gitme!"]
+	quest.5910265988429A3A.title: "Netherite Monstrosity"
+	quest.5D0540FD1316554A.quest_desc: ["&eL_Ender's Cataclysm&r boss'ları paketin en zorlu düşmanları. &eEnder Guardian&r End'deki &eRuined Citadel&r'da bekler: ışınlanır, yerçekimiyle oynar ve dev yumruklarla vurur. Cataclysm boss'larının her biri benzersiz silah ve malzemeler düşürür."]
+	quest.5D0540FD1316554A.title: "Ender Guardian"
+	quest.6526F023BD5C923E.quest_desc: ["Mowzie's Mobs'un ilk boss'u: yer altındaki bir odada uyuyan dev, zırhlı bir şövalye. Saldırılarından sonra kısa bir süre savunmasız kalır, &esırtına&r vurmak en etkilisi. Yendiğinde güçlü bir balta düşürür."]
+	quest.6526F023BD5C923E.title: "Ferrous Wroughtnaut"
+	quest.6CC490EB3726F378.quest_desc: ["Savan biyomlarındaki köylerin lideri, güneşin efendisi. Önce maskeli savaşçılarını yenmen gerekiyor, sonra kendisi güneş ışınlarıyla saldırır. Yendiğinde güneş gücünü kullandıran bir eşya bırakır."]
+	quest.6CC490EB3726F378.title: "Umvuthi"
+}
