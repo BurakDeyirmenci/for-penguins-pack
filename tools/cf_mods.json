@@ -339,6 +339,19 @@
    "required_by": null
   },
   {
+   "slug": "fast-leaf-decay",
+   "name": "Fast Leaf Decay",
+   "projectID": 230976,
+   "fileID": 5849090,
+   "file": "fastleafdecay-35.jar",
+   "downloadable": true,
+   "url": "https://edge.forgecdn.net/files/5849/90/fastleafdecay-35.jar",
+   "sha1": "589f05dcd58d3708cee9046b23fe11fb81a25d2e",
+   "client_only": false,
+   "shader": false,
+   "required_by": null
+  },
+  {
    "slug": "ferritecore",
    "name": "FerriteCore ((Neo)Forge)",
    "projectID": 429235,
@@ -714,6 +727,19 @@
    "client_only": false,
    "shader": false,
    "required_by": "terralith"
+  },
+  {
+   "slug": "lootr",
+   "name": "Lootr (Forge & NeoForge)",
+   "projectID": 361276,
+   "fileID": 8968561,
+   "file": "lootr-neoforge-1.21.1-1.11.38.127.jar",
+   "downloadable": true,
+   "url": "https://edge.forgecdn.net/files/8968/561/lootr-neoforge-1.21.1-1.11.38.127.jar",
+   "sha1": "7a305b581abd90e1a8b7c1bb5eb4511d2653aa58",
+   "client_only": false,
+   "shader": false,
+   "required_by": null
   },
   {
    "slug": "makeup-ultra-fast-shader",
