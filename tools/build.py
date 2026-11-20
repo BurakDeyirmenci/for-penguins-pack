@@ -1,7 +1,7 @@
 """Builds a Prism instance and a CurseForge modpack zip from cf_mods.json."""
 import hashlib, json, os, re, shutil, sys, urllib.request, zipfile
 
-NAME, VERSION, MC, NEOFORGE = "For Penguins", "1.4.0", "1.21.1", "21.1.267"
+NAME, VERSION, MC, NEOFORGE = "For Penguins", "1.5.0", "1.21.1", "21.1.267"
 SCRATCH = os.path.dirname(os.path.abspath(__file__))
 INSTANCE = os.path.expanduser("~/.local/share/PrismLauncher/instances/Dostlar SMP")  # klasor adi sabit, gorunen ad instance.cfg icinde
 

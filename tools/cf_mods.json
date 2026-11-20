@@ -378,6 +378,19 @@
    "required_by": null
   },
   {
+   "slug": "ftb-essentials",
+   "name": "FTB Essentials (Forge & Fabric)",
+   "projectID": 410811,
+   "fileID": 8442866,
+   "file": "ftb-essentials-neoforge-2101.1.10.jar",
+   "downloadable": true,
+   "url": "https://edge.forgecdn.net/files/8442/866/ftb-essentials-neoforge-2101.1.10.jar",
+   "sha1": "fa7b3d1b06c0285dcbe8e53a27d44cd7f8d15726",
+   "client_only": false,
+   "shader": false,
+   "required_by": null
+  },
+  {
    "slug": "ftb-library-forge",
    "name": "FTB Library (NeoForge)",
    "projectID": 404465,
@@ -558,6 +571,19 @@
    "client_only": false,
    "shader": false,
    "required_by": "integrated-terminals"
+  },
+  {
+   "slug": "inventory-tweaks-refoxed",
+   "name": "Inventory Tweaks - ReFoxed",
+   "projectID": 976858,
+   "fileID": 9488021,
+   "file": "invtweaks-1.21.1-1.4.0.jar",
+   "downloadable": true,
+   "url": "https://edge.forgecdn.net/files/9488/21/invtweaks-1.21.1-1.4.0.jar",
+   "sha1": "26104f9735ead0d4defd09aa26110eca852d1610",
+   "client_only": false,
+   "shader": false,
+   "required_by": null
   },
   {
    "slug": "iris-flywheel-compat",
